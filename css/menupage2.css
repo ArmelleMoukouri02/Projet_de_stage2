@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} 
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding:10px;
+  justify-content: space-between; 
+    
+}
+nav{ 
+    text-align: right;
+}
+
+nav ul{
+    display: flex; 
+}
+
+nav ul li{
+    display: flex;
+    margin-right: 20px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px; 
+}
+
+.header{
+    background: -webkit-linear-gradient(left, #c751af, #45ccb8);
+}
+
+.d-block {
+    height: 450px;
+}
+
+.w3-content{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    animation: slide 20s infinite;
+    height: 600px; 
+    width: 100%;
+
+}
+
+.col-2{
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   position: absolute;
+   letter-spacing: 5px;
+   text-align: center;
+
+
+}
+
+.col-2 .btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    outline: none;
+    background-color: inherit;
+    border: 2px solid #45ccb8;
+}
+
+.col-2 .btn:hover {
+    background-color: #c751af;
+    border: none;
+    color: #fff;
+}
+
+
+
+@keyframes slide{
+    
+    0%{
+        background-image: url(../image/holding-hands-918990_1920.jpg);
+    }
+    25%{
+        background-image: url(../image/pregnant-woman-1512961_1920.jpg);
+    }
+    50%{
+        background-image: url(../image/pregnant-2640994_1920.jpg);
+    }
+    75%{
+        background-image: url(../image/baby-784609_1920.jpg);
+    }
+    100%{
+        background-image: url(../image/brothers-457237_1920.jpg);
+    }
+
+
+
+
+
+}
+
+.for_slick_slider .items{
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+
+
+
+}
+
+.for_slick_slider .items img{
+    width: 350px;
+    height: 250px;
+
+
+} 
+
+
+
+
+/*-----panier-----*/
+
+.cart-page{
+   margin: 80px auto; 
+
+
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.img-cart{
+   width: 130px; 
+   height: 130px;
+
+}
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap; 
+
+
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #45ccb8;
+    font-weight: normal;
+
+
+}
+
+td{
+    padding: 10px 5px;
+
+
+}
+
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+
+}
+
+td a{
+    color: #45ccb8;
+    font-size: 15px;
+
+}
+
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 16px;
+
+
+}
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+.total-price table{
+    border-top: 3px solid #45ccb8;
+    width: 100%;
+    max-width: 600px;
+
+
+
+}
+
+td:last-child{
+    text-align: right;
+     
+
+}
+
+th:last-child{
+    text-align: right;
+}
+
+/*----------footer-----------*/
+
+.newsletter-info {
+    margin-bottom: 24px;
+    margin-left: 120px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.n-form {
+    width: 325px;
+}
+
+.n-form .form-group {
+    width: 100%;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 24px;
+    outline: none;
+    border: 2px solid var(--primary);
+    border-radius: 6px;
+}
+
+.form-control::placeholder {
+    color: #FFECAC;
+    font-weight: 500;
+}
+
+.btn1 {
+    padding: 8px 0px !important;
+    background-color: var(--primary);
+    color: #ffff;
+}
+
+.newsletter-img img {
+    width: 100%;
+}
+
+.foot {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #FEF4D3;
+}
+
+.footer-logo {
+    align-items: center;
+    color: var(--primary);
+}
+
+.footer-text {
+    opacity: 0.60;
+}
+
+/*.footer-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+.footer-btn {
+    padding: 16px;
+}
+
+
+.newsletter-info button {
+    outline: none;
+    width: 90px;
+    height: 35px;
+    border: 2px solid dodgerblue;
+    border-radius: 3px;
+    background-color: inherit;
+}
+
+.newsletter-info button:hover {
+    background-color: #c751af;
+    border: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.apropos {
+    margin-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: -webkit-linear-gradient(left, #c751af, #45ccb8);
+}
+
+.footer-col h4 {
+    font-weight: 400px;
+    border-bottom: 3px solid #fa16cc;
+}
+
+.footer-col ul li {
+    list-style: none;
+    margin-top: 10px;
+    border: none;
+}
+
+.footer-col ul li:hover {
+    border-bottom: 3px solid aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
